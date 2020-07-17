@@ -1,0 +1,44 @@
+body {
+          font-family: 'Heebo', sans-serif;
+}
+
+.main-container {
+          position: relative;
+          top: 20vh;
+}
+
+ul {
+          list-style-type: none;
+}
+
+ul li a{
+          color: #fff;
+}
+
+.return-desc {
+          margin: 0;
+          font-size: 0.7em;
+}
+
+.returns {
+          padding: 2em 1em;
+}
+
+.product-img {
+          width: auto;
+}
+
+/* Navbar section */
+.navbar {
+          height: 70vh;
+          align-items: flex-start;
+          box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 768px) {
+          .navbar{
+                    height: initial;
+          }
+}
